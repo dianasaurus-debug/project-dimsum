@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>O'DimsumKu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal-style.css">
+    <link rel="stylesheet" href="assets/css/menu-style.css">
+    <script src="assets/js/navbar.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light border-bottom shadow-sm">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand ml-3">
+            <img src="assets/images/logo-2.png" height="100px">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-expanded="false">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto menu-inti" id="navbarmenu">
+                <a href="index.html" class="nav-item nav-link" id="index">HOME</a>
+                <a href="menu.html" class="nav-item nav-link" id="menu">MENU</a>
+                <div class="dropdown">
+                    <a href="#" class="nav-item nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">CONNECT</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item-costum" href="reservation.html" id="reservation">Reservation</a>
+                        <a class="dropdown-item-costum" href="location.html" id="location">Lokasi Kami</a>
+                    </div>
+                </div>
+                <a href="dimsum-fact-page.html" class="nav-item nav-link" id="dimsum-fact-page">DIMSUM FACTS</a>
+                <a href="ourstory.html" class="nav-item nav-link" id="ourstory">OUR STORY</a>
+            </div>
+            <div class="navbar-nav ml-auto socials">
+                <h5 align="center">Our Socials</h5>
+                <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i
+                        class="fa fa-facebook"></i></button>
+                <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i>
+                </button>
+                <button type="button" class="btn btn-social-icon btn-instagram btn-rounded"><i
+                        class="fa fa-instagram"></i></button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid" style="background-color: rgba(241, 242, 246,0.7)">
+    <div class="row menu-page shadow-sm mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center page-title">Menu</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-md-5 mt-sm-3">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <h2 class="text-center section-title">DIMSUM</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb40">
+                    <div class="menu-block">
+                        <h3 class="menu-title">KUKUS</h3>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 align-items-center">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/hargow.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Har Gow</h5>
+                                        <span class="dish-meta">Dimsum kenyal dan gurih yang berisi udang</span>
+                                        <div class="dish-price">
+                                            <p>Rp 25.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/charsiubaau.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Chaar Siau Bau</h5>
+                                        <span class="dish-meta">Bakpao isi Kacang Hijau/Ayam/Stroberi/Coklat</span>
+                                        <div class="dish-price">
+                                            <p>Rp 25.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/mantau.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Mantau</h5>
+                                        <span class="dish-meta">Bakpao tanpa isian dengan cita rasa yang lembut </span>
+                                        <div class="dish-price">
+                                            <p>Rp 20.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/lotusleafrice.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Lotus Leaf Rice</h5>
+                                        <span class="dish-meta">Nasi isian daging cincang yang dibungkus daun teratai</span>
+                                        <div class="dish-price">
+                                            <p>Rp 23.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/shumai.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Shumai</h5>
+                                            <span class="dish-meta">Dikenal dengan nama siomay dengan isian adonan ikan</span>
+                                            <div class="dish-price">
+                                                <p>Rp 25.000</p>
+                                            </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.starter -->
+                <!-- Soup -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb40">
+                    <div class="menu-block">
+                        <h3 class="menu-title">GORENG</h3>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/spiringroll.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Spring Roll</h5>
+                                        <span class="dish-meta">Lumpia goreng dengan isian sayuran dan daging</span>
+                                        <div class="dish-price">
+                                            <p>Rp 21.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/Tofuskinroll.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Tofu Skin Roll</h5>
+                                        <span class="dish-meta">Dimsum dengan kulit dari kulit tahu yang nikmat</span>
+                                        <div class="dish-price">
+                                            <p>Rp 21.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/friendwonton.jpeg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Fried Wonton</h5>
+                                        <span class="dish-meta">Pangsit goreng dengan isian daging ayam</span>
+                                        <div class="dish-price">
+                                            <p>Rp 20.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/shrimptoast.jpeg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Shrimp Toast</h5>
+                                        <span class="dish-meta">Roti goreng dengan isian adonan udang</span>
+                                        <div class="dish-price">
+                                            <p>Rp 24.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/djeendui.jpeg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Djeen Dui</h5>
+                                        <span class="dish-meta">Onde-onde yang berisi kacang merah manis</span>
+                                        <div class="dish-price">
+                                            <p>Rp 18.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb40">
+                    <div class="menu-block">
+                        <h3 class="menu-title">LAINNYA</h3>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/phoenixclaws.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Phoenix Claws Soup</h5>
+                                        <span class="dish-meta">Ceker ayam gurih yang dipadu sup segar dan ringan</span>
+                                        <div class="dish-price">
+                                            <p>Rp 20.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/phoenixclawskecap.jpg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Phoenix Claws Kecap</h5>
+                                        <span class="dish-meta">Ceker ayam pedas, gurih dan manis di bumbu kecap</span>
+                                        <div class="dish-price">
+                                            <p>Rp 20.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="ratio img-responsive img-circle"
+                                         style="background-image: url(assets/images/menus/spareribs.jpeg);"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="dish-content">
+                                        <h5 class="dish-title">Spare Ribs</h5>
+                                        <span class="dish-meta">Iga Sapi yang ditumis dengan berbagai bumbu oriental</span>
+                                        <div class="dish-price">
+                                            <p>Rp 30.000</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-md-5 mt-sm-3">
+        <div class="col-sm-7 mx-auto">
+            <img class="img-responsive" src="assets/images/dimsum-header.jpg">
+        </div>
+    </div>
+
+    <div class="row bg-choco mt-5">
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                            <h2 class="text-center section-title" style="color : white">MINUMAN</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- starter -->
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb40">
+                            <div class="menu-block">
+                                <h3 class="menu-title-choco">ANEKA JUS</h3>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/juspulm.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Jus Pulm</h5>
+                                                <span class="dish-meta-white">Jus Pulm yang segar sangat cocok untuk program diet</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 15.000</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/alpukat.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Jus Alpukat</h5>
+                                                <span class="dish-meta-white">Jus Alpukat asli dengan rasa yang creamy</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 15.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/jusbuahnaga.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Jus Buah Naga</h5>
+                                                <span class="dish-meta-white">Jus buah naga dengan rasa masam dan manis</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 13.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb40">
+                            <div class="menu-block">
+                                <h3 class="menu-title-choco">ANEKA TEH</h3>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/tehkrisan.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Teh Krisantimum</h5>
+                                                <span class="dish-meta-white">Teh krisantimum yang membuatmu relax</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 10.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/tehbungamekar.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Teh Bunga Mekar</h5>
+                                                <span class="dish-meta-white">Teh sehat dengan berbagai macam rempah</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 12.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/boba.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Bubble Tea</h5>
+                                                <span class="dish-meta-white">Teh dengan boba, susu segar dan gula merah</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 10.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb40">
+                            <div class="menu-block">
+                                <h3 class="menu-title-choco">LAINNYA</h3>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/wanglaoji.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Wang Lao Ji</h5>
+                                                <span class="dish-meta-white">Minuman herbal dengan berbagai herba berkhasiat</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 15.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/susukedelai.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Susu Kedelai</h5>
+                                                <span class="dish-meta-white">Susu creamy anti hewani dari kacang kedelai</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 8.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="ratio img-responsive img-circle"
+                                                 style="background-image: url(assets/images/minuman/jeruknipis.jpg);"></div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="dish-content">
+                                                <h5 class="dish-title-white">Es Jeruk Nipis</h5>
+                                                <span class="dish-meta-white">Cita rasa segar dari jeruk nipis penuh antioksidan</span>
+                                                <div class="dish-price-white">
+                                                    <p>Rp 6.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-md-5 mt-sm-3 mb-5">
+                <div class="col-md-7 mx-auto">
+                    <img class="img-responsive rounded" src="assets/images/beverage.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row reserve-now shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-2">
+                    <h2 class="text-center schedule">SENIN - SABTU : JAM 08.00 - 21.00 WIB</h2>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <h2 class="text-center section-title-find-us">Reserve a Table!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 align-items-center">
+                    <div>
+                        <p class="sub-title-dimsum-desc text-center">
+                            <span style="line-height: 1.8">
+                                Buruan datang ke O'Dimsum dan rasakan kenikmatan dan orisionalitas menu-menu dimsum dan minuman segar di restoran kami. Pesan tempat sekarang juga agar tidak kehabisan dengan
+                                klik reserve now di bawah ini.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-md-5 mt-sm-3">
+                <div class="col-md-12">
+                    <h2 class="text-center about-us-button"><a href="reservation.html">Reserve Now!</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- Footer -->
+<footer class="bg-white">
+    <div class="container py-5 text-center">
+        <div class="row py-4">
+            <div class="col-lg-12">
+                <img src="assets/images/logo-2.png" alt="" width="180">
+                <h1 class="hit-the-floor small-hit-the-floor"><span style="color : rgb(255, 71, 87)">O</span><span
+                        class="next-text">'DimsumKu</span></h1>
+                <h2 class="text-center nama-jalan mt-3">Jl. Arjuno No.118, Sawahan, Kec. Sawahan Kota SBY <br>Jawa
+                    Timur 60251</h2>
+                <ul class="list-inline mt-4 socmed-footer">
+                    <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                            class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                            class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                            class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© 2020 O'DimsumKu All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</div>
+</body>
+</html>

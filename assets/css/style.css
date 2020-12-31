@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700;900&display=swap');
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+    .socials {
+        display: inline-block;
+   }
+    .manfaat {
+        margin-top: 30px;
+    }
+}
+
+.navbar-nav {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-nav a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.menu-inti a {
+    margin: 0px 30px;
+}
+
+.navbar-nav a:hover{
+    color : chocolate !important;
+}
+
+.navbar .navbar-nav a.active {
+    color : chocolate !important;
+}
+
+
+.navbar-nav > .btn {
+    margin : 0px 7px;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.socials>button {
+    font-size: 20px !important;
+}
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff
+}
+
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff
+}
+
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff
+}
+
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff
+}
+
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff
+}
+
+section {
+    display : block;
+}
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/bg-resto.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}
+.jumbotron .container {
+    max-width: 60rem;
+    min-height : 37rem;
+    padding: 0px !important;
+}
+
+.hit-the-floor {
+    color: #fff;
+    font-size: 12em;
+    font-weight: bold;
+    font-family: 'Martel Sans', sans-serif;
+    text-shadow:
+            0 1px 0 #ccc,
+            0 2px 0 #c9c9c9,
+            0 3px 0 #bbb,
+            0 4px 0 #b9b9b9,
+            0 5px 0 #aaa,
+            0 6px 1px rgba(0,0,0,.1),
+            0 0 5px rgba(0,0,0,.1),
+            0 1px 3px rgba(0,0,0,.3),
+            0 3px 5px rgba(0,0,0,.2),
+            0 5px 10px rgba(0,0,0,.25),
+            0 10px 10px rgba(0,0,0,.2),
+            0 20px 20px rgba(0,0,0,.15);
+}
+.small-hit-the-floor {
+    font-size: 6em;
+}
+.sub-title {
+    font-size : 2em;
+    color : #fff;
+}
+.nama-jalan {
+    font-size : 20px;
+    color : black;
+}
+.sub-title-dimsum-desc {
+    font-family: 'Martel Sans', sans-serif;
+    font-size : 18px;
+}
+.dimsum-intro {
+    padding : 50px;
+    background-color: rgba(236, 204, 104,0.6)
+}
+.our-story-part1 {
+    padding : 50px;
+}
+.section-title {
+    color : rgba(255, 71, 87,1.0);
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.history-section {
+    padding: 30px;
+}
+.section-title-find-us {
+    color : white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.page-title {
+    color : white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.reserve-title {
+    color : black;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.find-us {
+    background-image: linear-gradient(rgba(47, 53, 66,0.7), rgba(47, 53, 66,0.7)),
+    url("../images/find-us.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : white;
+}
+.reserve-now {
+    background-image: linear-gradient(rgba(47, 53, 66,0.7), rgba(47, 53, 66,0.7)),
+    url("../images/ourstory/hongkong.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : white;
+}
+.lokasi {
+    background-image: linear-gradient(rgba(255, 71, 87,0.4), rgba(255, 71, 87,0.4)),
+    url("../images/china-red.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : white;
+}
+.reserve_header {
+    background-image: url("../images/reserve_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : black;
+}
+.dimsum-facts {
+    background-image: linear-gradient(rgba(255, 71, 87,0.4), rgba(255, 71, 87,0.4)),
+    url("../images/dimsum-fact.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : white;
+}
+.our-story {
+    background-image: linear-gradient(rgba(255, 71, 87,0.4), rgba(255, 71, 87,0.4)),
+    url("../images/galleries/bg-resto.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : white;
+}
+.menu-page {
+    background-image: linear-gradient(rgba(255, 71, 87,0.4), rgba(255, 71, 87,0.4)),
+    url("../images/menu-header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 600px;
+    color : white;
+}
+.schedule {
+    font-size : 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+}
+.location-main-title {
+    font-size : 30px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+}
+.about-us-button a{
+    font-size : 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    color : white;
+    text-decoration: underline white;
+}
+.about-us-button a:hover{
+    text-decoration: underline red;
+}
+.sub-title-underline {
+    font-size : 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: underline red;
+}
+.button-fakta-selengkapnya {
+    color : white;
+    font-size : 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    background-color: rgba(240, 52, 52, 1);
+}
+.button-fakta-selengkapnya:hover {
+    color : black;
+    font-size : 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    background-color: rgba(240, 52, 52, 0.7);
+}
+
+/* Styling the button */
+.button:hover {
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: white;
+    color : red;
+}
+.button-menu-selengkapnya {
+    color : rgba(47, 53, 66,1.0);
+    font-size : 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+}
+.highlighted-text {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMjAwMTA5MDQvL0VOIgogICAgICAgICAgICAgICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+Cgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgICB3aWR0aD0iMWluIiBoZWlnaHQ9IjAuNWluIgogICAgIHZpZXdCb3g9IjAgMCAzMDAgMTUwIj4KICA8cGF0aAogICAgICAgIGZpbGw9IiNmZmUwMDAiIHN0cm9rZT0ibm9uZSIKICAgICAgICBkPSJNIDEyLjAwLDQ4LjAwCiAgICAgICAgICAgQyAxMi4wMCw1MC4wOSAxMS43OSw1NC45OSAxMi42MCw1Ni43MgogICAgICAgICAgICAgMTUuNTksNjMuMTggMjYuMDksNTYuNjQgMzMuMDAsNjMuMDAKICAgICAgICAgICAgIDMwLjg0LDYzLjE4IDIzLjA1LDYzLjg3IDIxLjgwLDY1LjAyCiAgICAgICAgICAgICAxOC4wMiw2Ny44OCAyMS4yOSw3Ni4zNSAyMS44MCw4MC4wMAogICAgICAgICAgICAgMjEuODAsODAuMDAgMjEuODAsODYuMDAgMjEuODAsODYuMDAKICAgICAgICAgICAgIDIxLjgwLDg2LjAwIDQwLjAwLDg3LjAwIDQwLjAwLDg3LjAwCiAgICAgICAgICAgICAzOS45Myw4OC44OCA0MC4wNiw5MS4wNCAzOC45OCw5Mi42OQogICAgICAgICAgICAgMzcuNTEsOTQuOTMgMzUuMTUsOTQuNzUgMzIuNTksOTYuMjAKICAgICAgICAgICAgIDI4LjMzLDk4LjYxIDI2Ljg3LDEwMi4yMiAyNy4zNCwxMDcuMDAKICAgICAgICAgICAgIDI3LjM0LDEwNy4wMCAzMC4wMiwxMjMuNDEgMzAuMDIsMTIzLjQxCiAgICAgICAgICAgICAzMS44MiwxMjUuNzUgNDAuMDEsMTI3Ljk1IDQzLjAwLDEyOC4wMAogICAgICAgICAgICAgNDMuMDAsMTI4LjAwIDg3LjAwLDEyOC4wMCA4Ny4wMCwxMjguMDAKICAgICAgICAgICAgIDg4LjA4LDEyMS41NiA5MS4xNiwxMjEuODAgOTcuMDAsMTIyLjA0CiAgICAgICAgICAgICA5Ny4wMCwxMjIuMDQgMTA5LjAwLDEyMy4wMCAxMDkuMDAsMTIzLjAwCiAgICAgICAgICAgICAxMDkuMDAsMTIzLjAwIDEyOC4wMCwxMjMuMDAgMTI4LjAwLDEyMy4wMAogICAgICAgICAgICAgMTI4LjAwLDEyMy4wMCAxODIuMDAsMTIyLjAwIDE4Mi4wMCwxMjIuMDAKICAgICAgICAgICAgIDE5NC41OCwxMjEuOTcgMTg4LjQyLDExOS4wMyAyMDEuMDAsMTE5LjAwCiAgICAgICAgICAgICAyMDEuMDAsMTE5LjAwIDI0My4wMCwxMTkuMDAgMjQzLjAwLDExOS4wMAogICAgICAgICAgICAgMjQzLjAwLDExOS4wMCAyNTguMDAsMTE4LjAwIDI1OC4wMCwxMTguMDAKICAgICAgICAgICAgIDI1OS41MywxMDkuMTAgMjY2LjAxLDExMy4zNyAyNzAuNDAsMTA5LjE1CiAgICAgICAgICAgICAyNzIuNjEsMTA3LjAzIDI3Mi4zMCwxMDAuODUgMjcyLjAwLDk4LjAwCiAgICAgICAgICAgICAyNzIuMDAsOTguMDAgMjgwLjAwLDk3LjAwIDI4MC4wMCw5Ny4wMAogICAgICAgICAgICAgMjgwLjAwLDk0LjEwIDI4MC4yNiw4OC41NSAyNzkuMjYsODYuMDIKICAgICAgICAgICAgIDI3Ni40OSw3OC45OCAyNjQuNjMsNzYuODggMjU4LjAwLDc2LjAwCiAgICAgICAgICAgICAyNjUuMTUsNjkuMTkgMjc2LjQwLDczLjAzIDI3NC44NSw2Mi4wNAogICAgICAgICAgICAgMjc0LjQ3LDU5LjM1IDI3My43Myw1OC44NSAyNzIuMDAsNTcuMDAKICAgICAgICAgICAgIDI4MS42OCw1My43NyAyODEuMDAsNTQuMjggMjgxLjAwLDQ0LjAwCiAgICAgICAgICAgICAyODEuMDAsNDQuMDAgMjU4LjAwLDQyLjM4IDI1OC4wMCw0Mi4zOAogICAgICAgICAgICAgMjUwLjAwLDQwLjg0IDI1MS40OCwzOC4wMyAyMzUuMDAsMzguMDAKICAgICAgICAgICAgIDIzNS4wMCwzOC4wMCAxODkuMDAsMzkuMDAgMTg5LjAwLDM5LjAwCiAgICAgICAgICAgICAxODkuMDAsMzkuMDAgMTc3LjAwLDM5LjgyIDE3Ny4wMCwzOS44MgogICAgICAgICAgICAgMTc3LjAwLDM5LjgyIDE1OS4wMCwzOC4wMCAxNTkuMDAsMzguMDAKICAgICAgICAgICAgIDE1OS4wMCwzOC4wMCAxMjguMDAsMzguMDAgMTI4LjAwLDM4LjAwCiAgICAgICAgICAgICAxMTYuOTAsMzguMDIgMTIwLjE2LDM5LjQwIDExMy4wMCw0MC42NwogICAgICAgICAgICAgMTEzLjAwLDQwLjY3IDk3LjAwLDQyLjE3IDk3LjAwLDQyLjE3CiAgICAgICAgICAgICA5Ny4wMCw0Mi4xNyA4Ny4wMCw0My44MyA4Ny4wMCw0My44MwogICAgICAgICAgICAgODcuMDAsNDMuODMgNTcuMDAsNDUuMDAgNTcuMDAsNDUuMDAKICAgICAgICAgICAgIDU3LjAwLDQ1LjAwIDMyLjAwLDQ4LjAwIDMyLjAwLDQ4LjAwCiAgICAgICAgICAgICAzMi4wMCw0OC4wMCAxMi4wMCw0OC4wMCAxMi4wMCw0OC4wMCBaIiAvPgo8L3N2Zz4K');
+    background-position: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : black;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.what-is-dimsum {
+    background-color: rgba(236, 204, 104,1);
+    padding : 70px 350px;
+    color : rgba(47, 53, 66,1.0);
+}
+.dimsum-history {
+    background-color: #f1f2f6;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.dim-sum-history-text {
+    font-size: 20px;
+    text-align: justify;
+}
+.dim-sum-history-text-smaller {
+    font-size: 18px;
+    text-align: justify;
+}
+.desc-manfaat {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 4px;
+}
+@media (max-width: 768px) {
+    .small-hit-the-floor {
+        font-size: 2.5em;
+    }
+    .hit-the-floor {
+        font-size: 5em;
+    }
+    .sub-title {
+        font-size : 1.2em;
+    }
+    .jumbotron .container {
+        min-height : 17rem;
+    }
+    .sub-title-dimsum-desc {
+        font-size : 15px;
+    }
+    .dimsum-intro .our-story-part1 {
+        padding : 20px;
+    }
+    .history-section {
+        padding : 20px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .find-us .lokasi .our-story .menu-page{
+        padding: 50px 70px;
+    }
+    .section-title-find-us {
+       font-size : 3em;
+    }
+    .schedule {
+        font-size: 12px;
+    }
+    .page-title {
+        font-size: 2.5em;
+    }
+    .location-main-title {
+        font-size : 15px;
+    }
+    .menu-page {
+        padding: 50px 100px;
+    }
+    .lokasi {
+        padding: 50px 100px;
+    }
+   .our-story{
+        padding: 50px 100px;
+    }
+    .find-us{
+        padding: 50px 50px;
+    }
+    .dimsum-facts {
+        padding: 50px 100px;
+        font-size: 10px;
+    }
+    .reserve_header {
+        padding: 50px 100px;
+        font-size: 10px;
+    }
+    .reserve-now{
+        padding: 50px 50px;
+    }
+    .what-is-dimsum{
+        padding: 30px 50px;
+    }
+    .navbar-nav a {
+        font-size: 15px;
+    }
+    .button-fakta-selengkapnya {
+        font-size: 15px;
+    }
+    .button-menu-selengkapnya {
+        font-size: 15px;
+    }
+    .reserve-title {
+        font-size: 2.5em;
+    }
+    .highlighted-text {
+        font-size: 25px;
+    }
+    .dim-sum-history-text {
+        font-size: 17px;
+        text-align: center;
+    }
+    .dim-sum-history-text-smaller {
+        font-size: 15px;
+        text-align: center;
+    }
+    .desc-manfaat {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .socials {
+        text-align : center
+    }
+}
+/* Styling the button */
+.button {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+.next-text {
+    font-size : 0.6em;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.history-image-border {
+    border: 3px solid rgba(236, 204, 104,1);
+}
+.about-us-image-border {
+    border: 3px solid red;
+}
+.rotate-left {
+    -webkit-transform:rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+.rotate-right {
+    -webkit-transform:rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-two-white {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(236, 204, 104,0), rgba(236, 204, 104,1.0), rgba(236, 204, 104,0));
+}
+
+.harga {
+    color : rgba(255, 71, 87,1.0);
+    font-size : 17px;
+}
+
+.nav-link {
+    font-size : 20px;
+    font-weight: 700;
+    color : chocolate;
+}
+.nav-tabs>.active>button, .nav-tabs>.active>button:hover, .nav-tabs>.active>button:focus {
+    border-color: #d45500;
+    border-bottom-color: transparent;
+    color : black;
+}
+.nav-tabs {
+    border-bottom: 1px solid #d45500;
+}
+.tab-pane.fade {
+    transition: all 0.2s;
+    transform: translateY(1rem);
+}
+
+.tab-pane.fade.show {
+    transform: translateY(0rem);
+}
+.dropdown-toggle,
+.dropdown-menu {
+    border-radius: 0px !important;
+    font-size : 10px;
+}
+.dropdown-item-costum {
+    font-size : 10px;
+}
+.dropdown-item-costum:hover {
+    color: chocolate;
+    background-color: transparent;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-item-costum:active {
+    color: chocolate !important;
+}
+
+.item-zoom{
+    position: relative;
+    overflow: hidden;
+}
+
+.item-zoom img{
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+
+}
+.item-zoom img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    border-radius:0;
+    padding:30px 5px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.details-card {
+    background: #ecf0f1;
+}
+
+.card-content {
+    background: #ffffff;
+    border: 4px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(255, 71, 87,.16), 0 2px 10px 0 rgba(255, 71, 87,.12);
+}
+
+.card-img {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-img span {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+
+.card-desc {
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-desc h3 {
+    color: chocolate;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+    color: #747373;
+    font-size: 14px;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#location {
+    font-family: 'Martel Sans', sans-serif;
+}
+.dimsum_facts_bg {
+    background-image: linear-gradient(rgba(255, 255, 255,0.8), rgba(255, 255, 255,0.8)), url("../images/dimsum-pattern.jpg") ;
+}
+.dim-sum-history-text h4{
+    color : black;
+    font-weight: 700;
+}

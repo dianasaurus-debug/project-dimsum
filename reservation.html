@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>O'DimsumKu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reservation.css">
+    <script src="assets/js/navbar.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light border-bottom shadow-sm">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand ml-3">
+            <img src="assets/images/logo-2.png" height="100px">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-expanded="false">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto menu-inti" id="navbarmenu">
+                <a href="index.html" class="nav-item nav-link" id="index">HOME</a>
+                <a href="menu.html" class="nav-item nav-link" id="menu">MENU</a>
+                <div class="dropdown">
+                    <a href="#" class="nav-item nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">CONNECT</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item-costum" href="reservation.html" id="reservation">Reservation</a>
+                        <a class="dropdown-item-costum" href="location.html" id="location">Lokasi Kami</a>
+                    </div>
+                </div>
+                <a href="dimsum-fact-page.html" class="nav-item nav-link" id="dimsum-fact-page">DIMSUM FACTS</a>
+                <a href="ourstory.html" class="nav-item nav-link" id="ourstory">OUR STORY</a>
+            </div>
+            <div class="navbar-nav ml-auto socials">
+                <h5 align="center">Our Socials</h5>
+                <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i
+                        class="fa fa-facebook"></i></button>
+                <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i>
+                </button>
+                <button type="button" class="btn btn-social-icon btn-instagram btn-rounded"><i
+                        class="fa fa-instagram"></i></button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid reserve-bg">
+    <div class="row reserve_header shadow-sm mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center reserve-title">Pesan Meja</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-md-5 mt-sm-3">
+        <div class="container">
+            <div class="row">
+                <section id="book-a-table" class="book-a-table">
+                    <div class="container" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 text-center">
+                                <h2 class="form-reserve-title">Pesan Tempat</h2>
+                                <p class="mb-5">
+                                    Ajak keluarga dan teman-teman berkumpul di O'Dimsum dan nikmati hidangan lezat yang
+                                    kami sediakan
+                                </p>
+                            </div>
+                        </div>
+                        <form action="" method="post" role="form">
+                            <div class="form-row">
+                                <div class="col-lg-4 col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control col-form-label-lg" id="name"
+                                           placeholder="Nama">
+                                </div>
+                                <div class="col-lg-4 col-md-6 form-group">
+                                    <input type="email" class="form-control col-form-label-lg" name="email" id="email"
+                                           placeholder="E-mail">
+                                </div>
+                                <div class="col-lg-4 col-md-6 form-group">
+                                    <input type="number" class="form-control col-form-label-lg" name="phone" id="phone"
+                                           placeholder="Nomor Telepon">
+                                </div>
+                                <div class="col-lg-4 col-md-6 form-group">
+                                    <input type="date" name="date" class="form-control col-form-label-lg" id="date"
+                                           placeholder="Date">
+                                </div>
+                                <div class="col-lg-4 col-md-6 form-group">
+                                    <input type="time" class="form-control col-form-label-lg" name="time" id="time"
+                                           placeholder="Time">
+                                </div>
+                                <div class="col-lg-4 col-md-6 form-group">
+                                    <input type="number" class="form-control col-form-label-lg" name="people"
+                                           id="people" placeholder="Jumlah Orang">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control col-form-label-lg" name="message"
+                                          placeholder="Pesan atau Request"></textarea>
+                            </div>
+                            <button type="button" class="btn float-right btn-reserve btn-lg mt-3" onclick="reserveNow()">Pesan Sekarang!
+                            </button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- Footer -->
+<footer class="bg-white">
+    <div class="container py-5 text-center">
+        <div class="row py-4">
+            <div class="col-lg-12">
+                <img src="assets/images/logo-2.png" alt="" width="180">
+                <h1 class="hit-the-floor small-hit-the-floor"><span style="color : rgb(255, 71, 87)">O</span><span
+                        class="next-text">'DimsumKu</span></h1>
+                <h2 class="text-center nama-jalan mt-3">Jl. Arjuno No.118, Sawahan, Kec. Sawahan Kota SBY <br>Jawa
+                    Timur 60251</h2>
+                <ul class="list-inline mt-4 socmed-footer">
+                    <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                            class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                            class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                            class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© 2020 O'DimsumKu All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="assets/js/reservation.js"></script>
+</body>
+</html>
